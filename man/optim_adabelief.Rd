@@ -49,6 +49,9 @@ developed by the authors which is available at
 https://github.com/jettify/pytorch-optimizer.
 Thanks to Nikolay Novik of his work on python optimizers.
 
+The original implementation is licensed using the Apache-2.0 software license.
+This implementation is also licensed using Apache-2.0 license.
+
 From the abstract by the paper by Zhuang et al (2021):
 We propose AdaBelief to simultaneously achieve three goals:
 fast convergence as in adaptive methods, good generalization as in SGD,
