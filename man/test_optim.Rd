@@ -106,11 +106,15 @@ algorithms can face.
 Function \code{test_function()} plot the 2D-space of a test optimization function.
 }
 \examples{
+if (torch::torch_is_installed()) {
+library(torch)
+
 # plot test function 2D-space
 test_function("rosenbrock")
 
 # plot optimization path of a initially random stating point
 test_optim(optim_madgrad)
+}
 
 }
 \author{

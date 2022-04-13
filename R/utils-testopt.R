@@ -150,11 +150,15 @@ domain_sphere <- function(){
 #' @param plot_each_step Should output each step? (default `FALSE`)
 #'
 #' @examples
+#' if (torch::torch_is_installed()) {
+#' library(torch)
+#'
 #' # plot test function 2D-space
 #' test_function("rosenbrock")
 #'
 #' # plot optimization path of a initially random stating point
 #' test_optim(optim_madgrad)
+#' }
 #'
 NULL
 
